@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //Angular Material Components
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatButtonModule } from '@angular/material/button';
 
 //Components
 import { HomepageComponent } from './homepage/homepage.component';
@@ -22,7 +23,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatGridListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
