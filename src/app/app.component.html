@@ -1,5 +1,12 @@
 <mat-drawer-container id="grid">
-    <mat-drawer mode="side" opened id="drawer">MASTERNOMICON</mat-drawer>
+    <mat-drawer mode="side" opened id="drawer">
+        <a style="margin-top: 5%; color: white; text-decoration: none;" routerLink="/">MASTERNOMICON</a>
+        <mat-list role="list" id="list">
+            <mat-list-item role="list-item">
+                <button mat-button routerLink="/generators/npc">Gerador de NPCs</button>
+            </mat-list-item>
+        </mat-list>
+    </mat-drawer>
     <mat-drawer-content>
         <router-outlet></router-outlet>
     </mat-drawer-content>

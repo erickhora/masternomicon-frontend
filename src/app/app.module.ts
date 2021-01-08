@@ -9,14 +9,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
+import { MatListModule } from '@angular/material/list';
 
 //Components
 import { HomepageComponent } from './homepage/homepage.component';
+import { NpcComponent } from './generators/npc/npc.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomepageComponent
+    HomepageComponent,
+    NpcComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +27,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     BrowserAnimationsModule,
     MatGridListModule,
     MatSidenavModule,
-    MatButtonModule
+    MatButtonModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
